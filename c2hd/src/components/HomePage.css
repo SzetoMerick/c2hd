@@ -1,3 +1,7 @@
+.homepage-container {
+	display: flex;
+}
+
 .bballCourtImg {
 	padding: 2px;
 	width: 40%;
