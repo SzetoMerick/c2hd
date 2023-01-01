@@ -1,8 +1,28 @@
-.homepage-container {
+.homepage_container {
 	display: flex;
 }
 
-.bballCourtImg {
+.image_button_container {
+	margin-left: 1%;
+	display: block;
+}
+
+.img_container {
+	height: 10%;
+	max-height: 10%;
+	width: 35%;
+	max-width: 35%;
 	padding: 2px;
-	width: 40%;
+}
+
+.homepage_img {
+	height: 100%;
+	width: 100%;
+	border-radius: 10px;
+	object-fit: cover;
+}
+
+li {
+	list-style-type: none;
+	padding: 2px;
 }
