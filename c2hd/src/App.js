@@ -11,6 +11,7 @@ function App() {
 			<div className="container">
 				<Routes>{/* <Route path="/" element={<HomePage />} /> */}</Routes>
 			</div>
+			<Footer />
 		</BrowserRouter>
 	);
 }

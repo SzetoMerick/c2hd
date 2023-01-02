@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaInstagram, FaIoxhost } from "react-icons/fa";
+import "./Footer.css";
 
 const Footer = () => {
 	return (
-		<footer className="footer">
+		<div className="footer">
 			<div className="footer-container">
 				<div className="footer-column">
 					<h3>About Us</h3>
@@ -37,10 +38,7 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
-			<div className="footer-bottom">
-				<p>Copyright 2021</p>
-			</div>
-		</footer>
+		</div>
 	);
 };
 

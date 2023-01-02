@@ -1,7 +1,11 @@
 .footer {
 	background-color: #333;
 	color: #fff;
-	padding: 2rem 0;
+	padding: 1rem 0;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
 }
 
 .footer-container {
@@ -56,6 +60,7 @@
 	background-color: #222;
 	padding: 1rem 0;
 	text-align: center;
+	height: 1rem;
 }
 
 .footer-bottom p {
