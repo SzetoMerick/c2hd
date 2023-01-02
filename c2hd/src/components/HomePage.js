@@ -7,7 +7,7 @@ import toiletImage from "../images/toilet.jpg";
 import gazeboImage from "../images/gazebo.jpg";
 
 function HomePage() {
-	const [image, setImage] = useState("image1.jpg");
+	const [image, setImage] = useState(bballCourtImage);
 	return (
 		<div className="homepage_container">
 			<div className="img_container">
