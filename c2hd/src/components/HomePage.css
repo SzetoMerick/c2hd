@@ -2,11 +2,6 @@
 	display: flex;
 }
 
-.image_button_container {
-	margin-left: 1%;
-	display: block;
-}
-
 .img_container {
 	max-height: 5%;
 	min-height: 5%;
@@ -33,4 +28,25 @@
 li {
 	list-style-type: none;
 	padding: 2px;
+}
+
+.image_button_container {
+	margin-left: 1%;
+	display: block;
+	width: 15%;
+	/* align-items: center; */
+	/* align-content: center; */
+	text-align: center;
+}
+
+.bball_button {
+	display: inline-block;
+}
+
+.toilet_button {
+	display: inline-block;
+}
+
+.gazebo_button {
+	display: inline-block;
 }
