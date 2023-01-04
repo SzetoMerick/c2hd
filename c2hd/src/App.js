@@ -3,12 +3,18 @@ import Nav from "./components/Nav";
 import HomePage from "./components/HomePage.js";
 import Contact from "./components/contact";
 import Footer from "./components/Footer.js";
+import YelpReviews from "./components/YelpReviews.js";
 
 function App() {
 	return (
 		<BrowserRouter>
 			<Nav />
+<<<<<<< HEAD
 
+=======
+			<YelpReviews />
+			<HomePage />
+>>>>>>> main
 			<div className="container">
 				<Routes>
 					<Route path="/" element={<HomePage />} />
