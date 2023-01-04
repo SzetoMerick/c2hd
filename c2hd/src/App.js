@@ -9,18 +9,14 @@ function App() {
 	return (
 		<BrowserRouter>
 			<Nav />
-<<<<<<< HEAD
-
-=======
 			<YelpReviews />
 			<HomePage />
->>>>>>> main
-			<div className="container">
+			{/* <div className="container">
 				<Routes>
 					<Route path="/" element={<HomePage />} />
 					<Route path="/contact" element={<Contact />} />
 				</Routes>
-			</div>
+			</div> */}
 			<Footer />
 		</BrowserRouter>
 	);
