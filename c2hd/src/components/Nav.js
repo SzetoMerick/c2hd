@@ -42,11 +42,7 @@ function Nav() {
                   <NavLink
                     className="nav-link"
                     aria-current="page"
-<<<<<<< HEAD
-                    to="/contact"
-=======
                     to="/services"
->>>>>>> main
                   >
                     Services
                   </NavLink>

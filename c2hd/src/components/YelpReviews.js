@@ -76,9 +76,3 @@ function ReviewsCarousel() {
 }
 
 export default ReviewsCarousel;
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> main
