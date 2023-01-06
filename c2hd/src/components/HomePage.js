@@ -1,13 +1,20 @@
 import "./HomePage.css";
 // import React from "react";
 import Button from "@mui/material/Button";
+// import { makeStyles } from "@mui/material/styles";
+import { ThemeProvider, createTheme } from "@mui/system";
 import React, { useState, useEffect } from "react";
 import bballCourtImage from "../images/basketball-court.jpg";
 import toiletImage from "../images/toilet.jpg";
 import gazeboImage from "../images/gazebo.jpg";
+import SportsBasketballIcon from "@mui/icons-material/SportsBasketball";
+import RoofingIcon from "@mui/icons-material/Roofing";
+import WcIcon from "@mui/icons-material/Wc";
 
 function HomePage() {
 	const [image, setImage] = useState(bballCourtImage);
+	const [description, setDescription] = useState("");
+
 	return (
 		<div className="homepage_container">
 			<div className="img_container">
@@ -18,7 +25,12 @@ function HomePage() {
 					<Button
 						className="bball_button"
 						variant="contained"
-						onClick={() => setImage(bballCourtImage)}
+						startIcon={<SportsBasketballIcon />}
+						endIcon={<SportsBasketballIcon />}
+						onClick={() => {
+							setImage(bballCourtImage);
+							setDescription("Basketball Court Installation");
+						}}
 					>
 						Basketball Court Installation
 					</Button>
@@ -27,7 +39,12 @@ function HomePage() {
 					<Button
 						className="toilet_button"
 						variant="contained"
-						onClick={() => setImage(toiletImage)}
+						startIcon={<WcIcon />}
+						endIcon={<WcIcon />}
+						onClick={() => {
+							setImage(toiletImage);
+							setDescription("Toilet Replacement");
+						}}
 					>
 						Toilet Replacement
 					</Button>
@@ -36,12 +53,18 @@ function HomePage() {
 					<Button
 						className="gazebo_button"
 						variant="contained"
-						onClick={() => setImage(gazeboImage)}
+						startIcon={<RoofingIcon />}
+						endIcon={<RoofingIcon />}
+						onClick={() => {
+							setImage(gazeboImage);
+							setDescription("Gazebo Installation");
+						}}
 					>
 						Gazebo Installation
 					</Button>
 				</li>
 			</div>
+			{description ? <div className="description_container">{description}</div> : <div></div>}
 		</div>
 	);
 }
