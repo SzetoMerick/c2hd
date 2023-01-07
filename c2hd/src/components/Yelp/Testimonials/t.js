@@ -5,6 +5,7 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 // import userPic from '../../image/user-one.png';
 import "./t.css";
+// import yelp from "/yelp.json";
 
 const Testimonials = () => {
 	const testiMonials = [
