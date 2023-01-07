@@ -1,31 +1,41 @@
 .homepage_container {
-	display: flex;
-	flex-basis: 100%;
+	/* display: flex;
+	flex-basis: 100%; */
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
 }
 
 .img_container {
 	max-height: 50vh;
 	min-height: 50vh;
-	max-width: 35vw;
-	min-width: 35vw;
-	/* max-width: 35%; */
-	/* padding: 2px; */
-	/* display: flex; */
-	align-content: stretch;
-	align-items: stretch;
-	/* overflow: hidden; */
-	margin-right: 5vw;
-	margin-left: 5vw;
+	max-width: 45vw;
+	min-width: 45vw;
+	margin: 0 auto;
 }
 
+/*
+TODO animation not working on mouse over
+* Animation is working for initial loading
+*/
 .homepage_img {
+	animation: fadeIn 1s;
+	padding: 2rem;
 	height: 100%;
 	max-height: 100%;
 	width: 100%;
 	max-width: 100%;
-	border-radius: 10px;
+	border-radius: 5rem;
 	/* object-fit: cover;
 	flex: 1; */
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 li {
@@ -34,30 +44,38 @@ li {
 }
 
 .image_button_container {
-	margin-left: 1vw;
-	display: block;
-	width: 15vw;
-	/* align-items: center; */
-	/* align-content: center; */
+	/* display: block; */
 	text-align: center;
-	margin-right: 1vw;
+	align-items: center;
+	justify-content: center;
 }
 
 .bball_button {
+	height: 5rem;
+	width: 20rem;
 	display: inline-block;
 }
 
 .toilet_button {
+	height: 5rem;
+	width: 20rem;
 	display: inline-block;
 }
 
 .gazebo_button {
+	height: 5rem;
+	width: 20rem;
 	display: inline-block;
 }
 
 .description_container {
 	font-size: 2em;
-	position: absolute;
 	right: 0;
-	margin-right: 5vw;
+	/* text-align: center; */
+
+	/* margin-right: 5vw; */
+}
+
+.description_title {
+	text-align: center;
 }
