@@ -73,6 +73,7 @@ const Testimonials = () => {
 			img: "https://s3-media0.fl.yelpcdn.com/photo/GLhdDFVbBqBnHtmA0weX6Q/180s.jpg",
 		},
 	];
+
 	//Owl Carousel Settings
 	const options = {
 		loop: true,
@@ -80,7 +81,7 @@ const Testimonials = () => {
 		items: 3,
 		margin: 0,
 		autoplay: true,
-		dots: true,
+		dots: false,
 		autoplayTimeout: 8500,
 		smartSpeed: 450,
 		nav: false,
@@ -96,8 +97,11 @@ const Testimonials = () => {
 			},
 		},
 	};
+	/*
+	TODO: Fix carousel items overlapping into footer.
+	*/
 	return (
-		<section id="testimonial" className="testimonials pt-70 pb-70">
+		<section id="testimonial" className="testimonials">
 			<div className="container mt-5">
 				<div className="text-center ">
 					<h3 className="sectionTitle">What Our Clients are Saying?</h3>

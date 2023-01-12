@@ -24,12 +24,6 @@
 	margin: 0 auto 1rem;
 }
 
-#customer-testimonoals {
-	/* margin-top: 6%; */
-	/* min-height: 50vh; */
-	/* margin-bottom: 1rem; */
-}
-
 .testimonial-name {
 	margin: -1rem auto 0;
 	display: table;
@@ -84,8 +78,4 @@
 	transform: translate3d(0px, -50%, 0px) scale(0.3);
 	transform-origin: 50% 50% 0;
 	transition: all 250ms ease-out 0s;
-}
-
-.owl-stage-outer {
-	/* margin-bottom: 5rem; */
 }

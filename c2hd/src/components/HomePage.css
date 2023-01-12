@@ -67,13 +67,16 @@ li {
 }
 
 .description_container {
-	font-size: 2em;
+	background-color: gray;
 	right: 0;
 	/* text-align: center; */
 
 	/* margin-right: 5vw; */
+	border-radius: 2rem;
 }
 
 .description_title {
+	font-size: 2em;
 	text-align: center;
+	color: white;
 }
