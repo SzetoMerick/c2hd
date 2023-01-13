@@ -9,18 +9,15 @@ import TestiMonials from "./components/Yelp/Testimonials/t.js";
 function App() {
 	return (
 		<BrowserRouter>
+			<Routes>
+				<Route path="/contact" element={<Contact />} />
+				<Route path="/testimonials" element={<TestiMonials />} />
+			</Routes>
 			<Nav />
 			<YelpReviews />
 			<HomePage />
 			<Contact />
 			<TestiMonials />
-
-			<div className="container">
-				<Routes>
-					<Route path="/contact" element={<Contact />} />
-					<Route path="/testimonials" element={<TestiMonials />} />
-				</Routes>
-			</div>
 			<Footer />
 		</BrowserRouter>
 	);
