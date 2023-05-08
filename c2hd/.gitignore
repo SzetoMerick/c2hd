@@ -6,6 +6,7 @@
 .pnp.js
 /log
 /.pack
+.pack
 
 # testing
 /coverage
