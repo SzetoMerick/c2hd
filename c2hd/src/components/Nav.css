@@ -1,0 +1,17 @@
+.ul {
+    margin-top: 0;
+  }
+  Share
+  Im
+
+.nav-link {
+    font-size: 30px; /* Adjust the value as needed */
+  }
+
+.btn {
+    font-size: 30px; /* Adjust the value as needed */
+    padding: 10px 20px; /* Adjust the padding values as needed */
+    border-radius: 25px;
+    color: 0079d5;
+    text: white;
+}

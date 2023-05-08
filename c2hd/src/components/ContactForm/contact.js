@@ -94,7 +94,7 @@ const Contact = () => {
             </form>
           </div>
         </div>
-        <div className="info-map">
+        {/* <div className="info-map">
           Rick Szeto
           <br />
           California
@@ -103,7 +103,7 @@ const Contact = () => {
           <br />
           <br />
           <span>c2yp@gmail.com</span>
-        </div>
+        </div> */}
         <div className="map-wrap">
           <MapContainer center={[34.0392359,-118.2662891]} zoom={11}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}cd ../{y}.png" />

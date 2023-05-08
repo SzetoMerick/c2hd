@@ -97,7 +97,7 @@ const Testimonials = () => {
                 <p className="text-center ">They love our assembly and plumbing services on Yelp, and you will too!</p>
                 <div className="row">
                     <div className="col-md-12">
-                        <OwlCarousel id="customer-testimonoals" className="owl-carousel owl-theme" {...options}>
+                        <OwlCarousel id="customer-testimonials" className="owl-carousel owl-theme" {...options}>
                             {
                                 testiMonials.length === 0 ?
                                     <div class="item">
@@ -127,3 +127,5 @@ const Testimonials = () => {
 };
 
 export default Testimonials;
+
+

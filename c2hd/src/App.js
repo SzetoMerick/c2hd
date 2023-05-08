@@ -6,11 +6,14 @@ import Footer from "./components/FooterMenu/Footer.js";
 import YelpReviews from "./components/YelpReviews.js";
 import TestiMonials from "./components/Yelp/Testimonials/t.js"
 import Header from "./components/Owners/owners.jsx"
+import Banner from "./components/Banner/Banner.js"
 
 function App() {
 	return (
 		<BrowserRouter>
 			<Nav />
+			<Banner />
+
 			{/* <YelpReviews /> */}
 			<HomePage />
 			<Contact />

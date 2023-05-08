@@ -1,0 +1,17 @@
+.read-more-btn {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 0;
+    text-decoration: underline;
+  }
+
+  .read-more-btn:focus {
+    outline: none;
+  }
+
+  .read-more-btn::-moz-focus-inner {
+    border: 0;
+  }

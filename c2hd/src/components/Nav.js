@@ -1,14 +1,15 @@
 import { NavLink } from "react-router-dom";
+import './Nav.css';
 
 function Nav() {
   return (
     <>
       <header>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-light bg-white">
           <div className="container-fluid">
             <NavLink className="navbar-brand" to="/">
               <img
-                height="85px"
+                height="200px"
                 alt="Disposition logo"
                 src={require("../images/c2hd.png")}
               />
@@ -49,9 +50,9 @@ function Nav() {
                 </li>
               </ul>
 
-              <NavLink className="btn btn-primary" to="/conferences/new">
-                Call now!
-              </NavLink>
+              <a className="btn btn-primary" href="tel:+16263158520">
+                Call now 6263158520!
+              </a>
             </div>
           </div>
         </nav>
