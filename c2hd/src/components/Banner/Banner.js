@@ -1,11 +1,13 @@
 import React from 'react';
 import "./Banner.css";
-
+import bannerImage from './banner.jpg';
 
 
 const Banner = () => {
   return (
     <div className="banner">
+      <div className="background-image" style={{ backgroundImage: `url(${bannerImage})` }}></div>
+      <div className="background-tint"></div>
       <h1>FIND RELIABLE HANDYMAN SERVICES IN YOUR AREA TODAY!</h1>
       <h1 className="banner-title">California Premium Handyman & Repair Services</h1>
       <p className="banner-description">Leading supplier of first-rate home improvement services in Los Angeles. We offer a wide range of services, including major and minor plumbing repairs, installations and replacements, flooring installation, furniture assembly, as well as projects of a smaller scale – any types of odd jobs around the house.</p>
@@ -37,15 +39,15 @@ const Banner = () => {
           <div className="service-name">Carpentry</div>
         </div>
         <div className="service-box">
-          <img src={process.env.PUBLIC_URL + '/drywall.jpg'} alt="Drywall / Walls" />
+          <img src={process.env.PUBLIC_URL + '/carpentry.png'} alt="Drywall / Walls" />
           <div className="service-name">Drywall / Walls</div>
         </div>
         <div className="service-box">
-          <img src={process.env.PUBLIC_URL + '/contracting.jpg'} alt="General Contracting" />
+          <img src={process.env.PUBLIC_URL + '/carpentry.png'} alt="General Contracting" />
           <div className="service-name">General Contracting</div>
         </div>
         <div className="service-box">
-          <img src={process.env.PUBLIC_URL + '/installation.jpg'} alt="Installation" />
+          <img src={process.env.PUBLIC_URL + '/carpentry.png'} alt="Installation" />
           <div className="service-name">Installation</div>
         </div>
         <div className="service-box">

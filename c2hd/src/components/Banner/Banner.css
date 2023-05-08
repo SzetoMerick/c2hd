@@ -1,42 +1,92 @@
 .banner {
-    background-color: #f2f2f2;
-    text-align: center;
-    height: 50vh;
-  }
+  position: relative;
+  text-align: center;
+  height: 55vh;
+  padding: 10% 5%;
+  margin-bottom: 400px;
+}
 
-  .location-icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('');
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
 
-  .location-icons img {
-    width: 50px;
-    height: 50px;
-    margin: 30px;
-  }
+.background-tint {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(64, 64, 64, 0.5);
+  z-index:-1;
+}
 
-  .location-icons div {
-    text-align: center;
-    font-size: 14px;
-    font-weight: bold;
-  }
+h1 {
+  color: white;
+}
 
-  p {
-    margin-top: 20px;
-    font-size: 16px;
-  }
+.location-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .banner-title {
-    font-size: 100px
+.location-icons img {
+  width: 50px;
+  height: 50px;
+  margin: 30px;
+}
 
-  }
+.location-icons div {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
 
-  .banner-description {
-    font-size: 30px
+.services-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
 
-  }
-  .service-box {
-    font-size: 30px
+.service-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+}
 
-  }
+.service-box img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.service-name {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.banner-title {
+  font-size: 100px;
+}
+
+.banner-description {
+  font-size: 30px;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 16px;
+  color: white;
+}

@@ -15,8 +15,8 @@ function App() {
 			<Banner />
 
 			{/* <YelpReviews /> */}
-			<HomePage />
-			<Contact />
+			{/* <HomePage /> */}
+			{/* <Contact /> */}
 			<TestiMonials />
 			<Header/>
 

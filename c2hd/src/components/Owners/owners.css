@@ -4,43 +4,15 @@
     box-sizing: border-box;
 }
 
-h6{
-    font-size: 22px;
-    line-height: 24px;
-    color:black ;
-}
 
-h2{
-    font-size: 52px;
-    line-height: 54px;
-}
-h4{
-    font-size: 26px;
-    line-height: 54px;
-}
 
-.container{
-    width: 1200px;
-    margin: 0 auto;
-}
 
-.bgMain{
-    background:white;
-    border-radius: 25px;
-    padding: 0.5 rem;
-}
 
-.h-650{
-    height: 650px;
-}
 
-.alignCenter{
-    align-items: center;
-}
 
-.justifyCenter{
-    justify-content: center;
-}
+
+
+
 
 .row{
     display:flex;
@@ -48,48 +20,37 @@ h4{
     flex-wrap: wrap;
 }
 
-.col-6{
-    width: 50%;
-}
-.col-4{
-    width: 33.333%;
-}
 
 
-header {
 
-    padding-top: 7rem;
-    height:45rem;
-}
 
-.header__content {
+
+/* .header__content {
     display:flex;
     align-items: center;
     height: 100vh;
-    color:blue;
-
-}
+    color: blue;
+} */
 
 .header-section h1{
-    font-size:85px;
-    font-weight:700;
-    margin-bottom:20px;
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
 
 .header-section h2{
-    color:blue;
-    font-weight:600;
-    font-size:52px;
-    margin-bottom:10px;
+    color: blue;
+    font-weight: 600;
+    font-size: 52px;
+    margin-bottom: 10px;
     line-height: 54px;
 }
 
 .header-section p{
-    font-size:22px;
+    font-size: 22px;
     line-height: 33px;
-    color:blue;
+    color: blue;
     margin-bottom: 26px;
-
 }
 
 .btn{
@@ -101,8 +62,8 @@ header {
 
 .btn-outline {
     background-color: red;
-    padding:20px 58px 19px;
-    color:black;
+    padding: 20px 58px 19px;
+    color: black;
     font-size: 20px;
     display: inline-block;
     border-radius: 35px;
@@ -110,21 +71,22 @@ header {
     box-shadow: 0 0 85px 0 yellow;
     border: 1px solid transparent;
     transition: all 0.3s;
-
 }
 
 .btn-outline:hover{
     background-color: purple;
+}
 
-}
 .header__buttons {
-    margin-top: 20px; /* Adjust this value as needed to position the button higher or lower */
+    margin-top: 20px;
 }
+
 .image {
-    max-height: 40%; /* Adjust this value as needed to fit the desired length */
+    max-height: 40%;
     width: auto;
     animation: right-mover 1s ease-in-out infinite alternate;
 }
+
 .image-container {
     display: flex;
     align-items: flex-start;

@@ -1,4 +1,4 @@
-import './contact.scss'
+import './contact.css'
 import { useEffect, useState } from 'react'
 import { useRef } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
